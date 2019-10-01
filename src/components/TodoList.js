@@ -2,7 +2,7 @@ import React from 'react';
 import NewTodo from './NewTodo';
 
 const TodoList = (props) => {
-    // console.log(props);
+
     return(
         <div className="todoListMain">
             <div className="header">

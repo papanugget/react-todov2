@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TodoList from './components/TodoList';
+import TaskDisplay from './components/TaskDisplay';
 
 class App extends React.Component {
   constructor(props) {
@@ -42,6 +43,7 @@ class App extends React.Component {
       <div className="container">
         <h1>ToDoList</h1>
         <TodoList addTask={this.addTask} createTask={this.createTask}/>
+        <TaskDisplay tasks={this.state.taskList}/>
       </div>
     );
   }
