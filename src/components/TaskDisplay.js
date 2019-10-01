@@ -2,11 +2,12 @@ import React from 'react';
 import TodoItem from './TodoItem';
 
 const TaskDisplay = (props) => {
-    // console.log(props);
-    let tasks = props.tasks;
-    // console.log(tasks);
-    let renderedList = tasks.map((task) => {
-       return  <TodoItem key={task.key} task={task}/>
+    const tasks = props.tasks;
+    const markImportant = props.markImportant;
+    const deleteTask = props.deleteTask;
+    const markDone = props.markDone;
+    const renderedList = tasks.map((task, idx) => {
+       return  <TodoItem key={task.key} task={task} markImportant={markImportant} deleteTask={deleteTask} markDone={markDone} id={idx}/>
     })
     if(tasks.length !== 0) {
         return(
@@ -18,7 +19,7 @@ const TaskDisplay = (props) => {
             </React.Fragment>
         );
     } else {
-        return <span></span>;
+        return null;
     }
 
 }

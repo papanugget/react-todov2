@@ -13,10 +13,10 @@ const NewTodo = (props) => {
             <br/>
             <div className="row">
                 <div className="col">
-                    <button type="reset" className="btn btn-warning btn-block">cancel</button>
+                    <button type="reset" className="btn btn-outline-danger btn-block">cancel</button>
                 </div>
                 <div className="col">
-                    <button type="submit" className="btn btn-primary btn-block">add task</button>
+                    <button type="submit" className="btn btn-outline-primary btn-block">add task</button>
                 </div>
             </div>
         </form>
