@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-todov2/static/css/main.3bc514eb.chunk.css",
+    "main.js": "/react-todov2/static/js/main.d831f4b5.chunk.js",
+    "main.js.map": "/react-todov2/static/js/main.d831f4b5.chunk.js.map",
+    "runtime-main.js": "/react-todov2/static/js/runtime-main.02bde1cd.js",
+    "runtime-main.js.map": "/react-todov2/static/js/runtime-main.02bde1cd.js.map",
+    "static/css/2.0624914a.chunk.css": "/react-todov2/static/css/2.0624914a.chunk.css",
+    "static/js/2.ef78bc45.chunk.js": "/react-todov2/static/js/2.ef78bc45.chunk.js",
+    "static/js/2.ef78bc45.chunk.js.map": "/react-todov2/static/js/2.ef78bc45.chunk.js.map",
+    "index.html": "/react-todov2/index.html",
+    "precache-manifest.a9dd543596dbe2a09b1cd0f192d9619f.js": "/react-todov2/precache-manifest.a9dd543596dbe2a09b1cd0f192d9619f.js",
+    "service-worker.js": "/react-todov2/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/react-todov2/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.3bc514eb.chunk.css.map": "/react-todov2/static/css/main.3bc514eb.chunk.css.map"
+  }
+}
